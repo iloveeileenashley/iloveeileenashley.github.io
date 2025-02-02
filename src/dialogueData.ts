@@ -51,6 +51,19 @@ export const dialogueStates: DialogueState = {
         buttonText: "i dont know, what?",
         nextId: "pasta",
       },
+      {
+        buttonText: "oh i know! an impasta!",
+        nextId: "pasta_answered",
+      }
+    ],
+  },
+  pasta_answered: {
+    text: "ight bruh way to ruin my joke smh... i got a question for you tho :P",
+    choices: [
+      {
+        buttonText: "okay... what is it?",
+        nextId: "question_1",
+      },
     ],
   },
     pasta: {
